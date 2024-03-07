@@ -1,0 +1,184 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cfe2f3;
+}
+
+header {
+    background-color: #87bdd8;
+    color: #fff;
+    padding: 5px 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #5bc0de;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f8ff;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f2f2f2;
+    text-align: left;
+}
+
+table th {
+    background-color: #87bdd8;
+    color: #fff;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+.timeline {
+    padding: 20px;
+}
+
+.event {
+    border-left: 2px solid #87bdd8;
+    padding: 20px;
+    margin: 20px 0;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.event:hover {
+    transform: translateY(-5px);
+}
+
+.event:last-child {
+    border-left: none;
+}
+
+.date {
+    font-weight: bold;
+    color: #87bdd8;
+}
+
+.description {
+    margin-left: 30px;
+}
+
+.description h3 {
+    margin-top: 0;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-image img {
+    max-width: 80%;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+}
+
+.about-text {
+    flex: 3;
+    text-align: justify;
+    font-size: 25px;
+}
+
+footer {
+    background-color: #87bdd8;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 12px;
+}
+
+/* Efek hover pada judul */
+section h2:hover {
+    color: #5bc0de;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Efek hover pada tombol menu */
+nav ul li a:hover {
+    background-color: #5bc0de;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Efek animasi pada gambar profil */
+.about-image img {
+    max-width: 80%;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+}
+
+/* Efek animasi pada judul */
+.about-content h2 {
+    font-size: 28px;
+    color: #555;
+    transition: font-size 0.3s ease-in-out, color 0.3s ease-in-out;
+}
